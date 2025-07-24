@@ -11,6 +11,12 @@ public class Main {
         System.out.println(cat);
         var papper = 763789;
         System.out.println(papper);
+        dog = dog + 4.0;
+        System.out.println(dog);
+        cat = cat + 4.0;
+        System.out.println(cat);
+        papper = papper + 4;
+        System.out.println(papper);
 
         for (int i = 1; i <= 5; i++) {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
