@@ -43,7 +43,9 @@ public class Main {
         System.out.println(fighterRomirez);
         var TotalMass = fighterAndy + fighterRomirez;
         System.out.println(TotalMass);
-        var weightDifference = fighterRomirez % fighterAndy;
+        var weightDifference = fighterRomirez - fighterAndy;
+        System.out.println(weightDifference);
+        weightDifference = fighterRomirez % fighterAndy;
         System.out.println(weightDifference);
 
 
